@@ -6,7 +6,7 @@ export default function Newsletter() {
   const [sobrenome, setSobrenome] = useState("");
   const [email, setEmail] = useState("");
 
-  function handleSubmit(e) {
+  function handleSubmit(e: { preventDefault: () => void; }) {
     e.preventDefault();
 
     if (!nome || !sobrenome || !email) {
