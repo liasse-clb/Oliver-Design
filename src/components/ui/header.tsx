@@ -48,7 +48,7 @@ export default function Header() {
 
           <li>
             <NavLink
-              to="/contato"
+              to="/contact"
               className={({ isActive }) =>
                 isActive
                   ? "font-bold text-[#ff9100] "
@@ -61,7 +61,7 @@ export default function Header() {
 
           <li>
             <NavLink
-              to="/sobre"
+              to="/about"
               className={({ isActive }) =>
                 isActive
                   ? "font-bold text-[#ff9100] "
@@ -108,7 +108,7 @@ export default function Header() {
 
             <li>
               <NavLink
-                to="/contato"
+                to="/contact"
                 onClick={() => setMenuOpen(false)}
                 className="hover:text-blue-600"
               >
@@ -118,7 +118,7 @@ export default function Header() {
 
             <li>
               <NavLink
-                to="/sobre"
+                to="/about"
                 onClick={() => setMenuOpen(false)}
                 className="hover:text-blue-600"
               >
